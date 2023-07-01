@@ -1,1 +1,27 @@
+1. What advantages do Excel spreadsheets have over CSV spreadsheets?
+Excel is superior to the CSV file format; thus, CSV consumes less file size when the user is importing data; it is a much faster format compared to Excel. 
+CSV does not manipulate data and stores it as-is. Excel also allows the user the add-in feature.
 
+2.What do you pass to csv.reader() and csv.writer() to create reader and writer objects?
+First, call open() and pass it 'w' to open a file in write mode . This will create the object you can then pass to csv. writer()  to create a Writer object. 
+On Windows, you'll also need to pass a blank string for the open() function's newline keyword argument.
+
+3. What modes do File objects for reader and writer objects need to be opened in?
+'r'	Open a file for reading. (default)
+'w'	Open a file for writing. Creates a new file if it does not exist or truncates the file if it exists.
+
+4. What method takes a list argument and writes it to a CSV file?
+Method 1: Using CSV Module
+We can convert a list to CSV in python easily by importing an in-built CSV module in python. 
+In this method, we use file handling in python to read the data of a list and then write it into a CSV file.
+
+5. What do the keyword arguments delimiter and line terminator do?
+This changes the delimiter and line terminator characters in your file. The delimiter is the character that appears between cells on a row. 
+By default, the delimiter for a CSV file is a comma. The line terminator is the character that comes at the end of a row.
+
+6.What function takes a string of JSON data and returns a Python data structure? 
+loads() We use the json. loads() method to parse a JSON string and return a Python object such as a dictionary.
+
+7. What function takes a Python data structure and returns a string of JSON data?
+The json. dumps() can be used for converting a Python object into a JSON string.
+The json. dumps() function takes one parameter, which is the data to be converted into JSON string.
