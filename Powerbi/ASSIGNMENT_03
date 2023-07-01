@@ -1,1 +1,37 @@
+1. List and explain different PowerBi products?
+PowerBi Desktop: a window desktop application for data analysis and reports creation.
+PowerBi Service: online software as a service,used to collaborate and distribute powerbi reports.
+PowerBi Mobile: a native mobile app
+PowerBi Embedded: a service to embed reports,visuals and dashboards.
+
+2. What limitations of Excel, Microsoft solved by PowerBi?
+Power BI handles Big Data, while Microsoft Excel cannot handle Big Data. 
+Power BI can connect with different varieties of sources, while Microsoft Excel can connect to limited sources. 
+Power BI dashboards are more interactive and custom, while Microsoft Excel dashboards are less interactive.
+
+3. Explain PowerQuery?
+Power Query is a data transformation and data preparation engine. 
+Power Query comes with a graphical interface for getting data from sources and a Power Query Editor for applying transformations. 
+Because the engine is available in many products and services, the destination where the data will be stored depends on where Power Query was used. 
+Using Power Query, you can perform the extract, transform, and load (ETL) processing of data.
+
+4. Explain PowerMap?Visualizing views in Power Apps with Power BI quick report enabled by default
+Microsoft Power Map for Excel is a three-dimensional (3-D) data visualization tool that lets you look at information in new ways. 
+A power map lets you discover insights you might not see in traditional two-dimensional (2-D) tables and charts.
+Map data: Plot more than a million rows of data visually on Bing maps in 3-D format from an Excel table or Data Model in Excel.
+
+Discover insights: Gain new understandings by viewing your data in geographic space and seeing time-stamped data change over time.
+
+Share stories: Capture screenshots and build cinematic, guided video tours you can share broadly, engaging audiences like never before. 
+Or export tours to video and share them that way as well.
+
+5. How powerBi eliminated the need to host SharePoint Server on premises?
+So, is it time to say goodbye to SharePoint on-prem? Not yet. Microsoft is showing evidence that it's committed to keeping it fresh. 
+If you're affected by regulatory requirements that make it difficult for your organization to migrate to the cloud or hybrid, 
+you can tackle search, visual design and integrations to give your employees a better experience while keeping the costs down.
+
+6. Explain the updates done in Power Bi Service(power BI 2.0) as compared to older version ?
+  a. New features to Deployment Pipeline
+  b. Storytelling in PowerPoint - new style option 
+  c. Visualizing views in Power Apps with Power BI quick report enabled by default
 
