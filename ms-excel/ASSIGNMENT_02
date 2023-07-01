@@ -1,1 +1,35 @@
+1. What does the dollar($) sign do?
+Mainly, dollar($) sign helps to freeze any given cell,so that if we also move the cell it doesn't the formula we've applied.
 
+2. How to Change the Reference from Relative to Absolute (or Mixed)?
+We can change the reference from relative to absolute (or Mixed) by pressing F4 key.
+
+3. Explain the order of operations in excel?
+The order of operations in excel are:
+  1. Parentheses
+  2. Exponents
+  3. Multiplication
+  4. Division
+  5. Addition
+  6. Subtraction
+  We can also called as (PEMDAS) rule.
+  
+4. What, according to you, are the top 5 functions in excel and write a basic syntax for any of two?
+   a. COUNTIF()---> =COUNTIF(RANGE,CRITERIA)
+   b. SUMIF()-----> =SUMIF(RANGE,CRITERIA,SUMRANGE)
+   c. EXACT()------> =EXACT(CELL1:CELL2)
+   d. RANK()-------> =RANK(number,ref,[order])
+   e. VLOOKUP()----> =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+
+5. When would you use the subtotal function?
+Sometimes, we need data based on different categories. SUBTOTALS help us to get the totals of several columns of data broken down into various categories.
+SUBTOTAL = (method, range1, [range2 …range_n])
+
+6. What is the syntax of the vlookup function? Explain the terms in it?
+VLOOKUP()----> =VLOOKUP(lookup_value, table_array, col_index_num, [range_lookup])
+in bracket, enter your lookup value followed by comma, enter lookup table, 
+the range of data to be considered followed by a comma, 
+enter the column number, 
+followed by comma, 
+enter the range lookup value, 
+either true or false and bracket close
