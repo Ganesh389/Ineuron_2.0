@@ -1,1 +1,67 @@
+1. What is the relationship between def statements and lambda expressions ?
+A lambda is an expression producing a function. A def is a statement producing a function.
+Lambda is an anonymous function.
+
+2. What is the benefit of lambda?
+Lambda helps you use a function only once, and hence, avoids cluttering up the code with function definitions. 
+In short, Python's lambda keyword lets you define a function in a single line of code and use it immediately.
+
+3. Compare and contrast map, filter, and reduce.
+The map() function iterates through all items in the given iterable and executes the function we passed as an argument on each of them.
+map(function, iterable(s))
+
+Similar to map(), filter() takes a function object and an iterable and creates a new list.
+filter(function, iterable(s))
+
+reduce() works differently than map() and filter(). 
+It does not return a new list based on the function and iterable we've passed. Instead, it returns a single value.
+reduce(function, sequence[, initial])
+
+4. What are function annotations, and how are they used?
+Function annotations are some random expressions which are written with the functions, and they are evaluated at compile time. 
+They do not exist at run time, and there is no meaning of these expressions to python. 
+They are used and interpreted by a third party or external python libraries.
+
+5. What are recursive functions, and how are they used?
+A recursive function is a function in code that refers to itself for execution. Recursive functions can be simple or elaborate. 
+They allow for more efficient code writing, for instance, in the listing or compiling of sets of numbers, 
+strings or other variables through a single reiterated process.
+
+6. What are some general design guidelines for coding functions?
+Defining a Function: def functionname( parameters ):
+   "function_docstring"
+   function_suite
+   return [expression]
+
+Calling a function: 
+functionname(required_values)
+
+7. Name three or more ways that functions can communicate results to a caller.
+Defining a Function: def functionname( parameters ):
+   "function_docstring"
+   function_suite
+   return [expression]
+
+Calling a function: 
+functionname(required_values)
+
+Defining a Function: def functionname( parameters ):
+   "function_docstring"
+   function_suite
+   return [expression]
+
+Calling a function: 
+res= functionname(required_values)
+print(res)
+
+def OutFun(): # outer function  
+    print("Hello, it is the outer function")  
+      
+    def InFun(): # inner function  
+        print("Hello, It is the inner function")  
+    InFun() # call inner   
+  
+OutFun() # call outer function    
+
+
 
