@@ -1,1 +1,39 @@
+1. What is the result of the code, and why?
+>>> def func(a,b=6,c=8);
+print(a,b,c)
+>>>func(1,2)
+Output: 1 2 8,because a=1,b=2,c=8 default value.
 
+2. What is the result of this code, and why?
+>>> def func(a, b, c=5):
+print(a, b, c)
+>>>func(1, c=3, b=2)
+Output: 1 2 3,The order of the keyword arguments does not matter in this case since they are explicitly named when calling the function.
+
+3. How about this code: what is its result, and why?
+>>> def func(a, *pargs):
+print(a, pargs)
+>>> func(1, 2, 3)
+Output: 1 (2, 3),When the function is called with func(1, 2, 3), 1 is assigned to parameter a, and 2 and 3 are packed into a tuple and assigned to pargs.
+
+4. What does this code print, and why?
+>>> def func(a, **kargs):
+print(a, kargs)
+>>>func(a=1, c=3, b=2)
+Output: 1 {'c': 3, 'b': 2},The **kargs parameter is defined with double asterisks (**), indicating that it will accept any number of additional keyword arguments.
+
+5. What gets printed by this, and explain?
+>>>def func(a, b, c=8, d=5): print(a, b, c, d)
+>>>func(1, *(5, 6))
+Output: 1 5 6 5,When the function is called with func(1, *(5, 6)), the value 1 is assigned to the parameter a,
+and the values 5 and 6 are unpacked from the tuple (5, 6) and assigned to the parameters b and c respectively.
+
+6. what is the result of this, and explain?
+>>>def func(a, b, c): a = 2; b[0] = &#39;x&#39;; c[&#39;a&#39;] = &#39;y&#39;
+>>>l=1; m=[1]; n={&#39;a&#39;:0}
+>>>func(l, m, n)
+>>>l, m, n
+Output: l = 1
+m = ['x']
+n = {'a': 'y'}
+The code defines a function called func that takes three arguments (a, b, c). Inside the function, the values of a, b[0], and c['a'] are modified.
