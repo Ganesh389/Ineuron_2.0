@@ -1,1 +1,80 @@
+1. Explain the advantages of Natural Queries in PowerBi with an example?
+ANS->     Simplifying employee access to BI data
+          Driving deeper business insights
+          Reducing confusion about analytics results
+          Applying structure to unstructured data
+     A common example of unstructured data is social media data on a company's brand. 
+     Business executives want to know what people are saying and how they feel about the brand.
+     NLP can both categorize social media mentions by topic and analyze the sentiments in posts.
+ 
+ 2. Explain Web Front End(WFE) cluster from Power BI Service Architecture?
+ ANS-> The WFE cluster uses Azure AD to authenticate clients, and provide tokens for subsequent client connections to the Power BI service. 
+ Power BI uses the Azure Traffic Manager (Traffic Manager) to direct user traffic to the nearest datacenter. 
+ Traffic Manager directs requests using the DNS record of the client attempting to connect, authenticate, and to download static content and files.
+ Power BI uses the Azure Content Delivery Network (CDN) to efficiently distribute the necessary static content and files to users based on geographical locale.
+ 
+ 3. Explain Back End cluster from Power BI Service Architecture?
+ ANS-> The Back-End cluster determines how authenticated clients interact with the Power BI service. 
+ The Back-End cluster manages visualizations, user dashboards, datasets, reports, data storage, data connections, data refresh, 
+ and other aspects of interacting with the Power BI service. 
+ The Gateway Role acts as a gateway between user requests and the Power BI service. 
+ Users don't interact directly with any roles other than the Gateway Role. Azure API Management eventually handles the Gateway Role.
+ 
+ 4. What ASP.NET component does in Power BI Service Architecture?
+ ANS-> Power BI Embedded is a big help for ISV company. 
+ ISV company can embed Power BI reports in a custom ASP.NET application and then create users and passwords as part of the application. 
+ The username and password of the application are not Power BI users, of course. Everyone who has access to that page can consume the report.
+ 
+ 5. Compare Microsoft Excel and PowerBi Desktop on the following features:
+Data import
+Data transformation
+Modeling
+Reporting
+Server Deployment
+Convert Models
+Cost
+ANS-> Data import- Import of data are more flexible in powerbi as compared to MS-Excel.
+
+      Data transformation- Excel is used to organize data, transform it and perform mathematical operations and calculations. 
+      On the other hand, Power BI was conceived as a business intelligence and data visualization tool for businesses. 
+      Excel has limitations in the amount of data it can work with.
+      
+      Modeling- Excel mainly supports simple modeling while powerbi can support complex modelling.
+      
+      Reporting- More visually appealing, customized, appealing, and interactive reporting.
+      While ms-excel reports are simpler and less appealing than those in Power BI.
+      
+      Server Deployment- Deployment is slightly easier in powerbi as compared to ms-excel.
+      
+      Convert Models- We can easily convert models in powerbi as compared to excel.
+      
+      Cost- Power BI Desktop is free to download and use for personal use while we already have Excel, 
+      we need to spend additional money to procure this and build dashboards. 
+      
+   6. List 20 data sources supported by Power Bi desktop.
+   ANS-> Data sources supported by PowerBi desktop are:
+   
+         Excel Workbook
+         Text/CSV
+         XML
+         JSON
+         Folder
+         PDF
+         Parquet
+         SharePoint folder
+         SQL Server database
+         Access database
+         Oracle Database
+         Snowflake
+         MariaDB
+         Hadoop file
+         Spark
+         R script
+         Python
+         ODBC
+         BI Connector
+         Solver
+
+      
+      
 
