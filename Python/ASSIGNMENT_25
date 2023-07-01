@@ -1,1 +1,24 @@
+1. What is the difference between enclosing a list comprehension in square brackets and
+parentheses?
+Enclosing with square brackets results as an list comprehension.
+Enclosing with parentheses results as a Generator Expression.
 
+2. What is the relationship between generators and iterators?
+Iterators are the objects that use the next() method to get the next value of the sequence. 
+A generator is a function that produces or yields a sequence of values using a yield statement. 
+Classes are used to Implement the iterators. Functions are used to implement the generator.
+
+3. What are the signs that a function is a generator function?
+A function with yield statements is a generator function.
+
+4. What is the purpose of a yield statement?
+The yield statement returns a generator object to the one who calls the function which contains yield, instead of simply returning a value.
+
+5. What is the relationship between map calls and list comprehensions? Make a comparison and
+contrast between the two.
+List comprehension has a simpler configuration than the map function.  
+List comprehension can be used together with if condition as replacement of filter method. 
+Map function has no such functionality. However, we can feed the map function output to the filter function.  
+List comprehension returns a list, whereas the map function returns an object of Iterable.  
+List comprehension execution is faster than that of map function when the formula expression is huge and complex. 
+Map function is faster than list comprehension when the formula is already defined as a function earlier. So, that map function is used without lambda expression. 
