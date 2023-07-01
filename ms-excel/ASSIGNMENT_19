@@ -1,1 +1,65 @@
+1. What are the data types used in VBA?
+Integer: Used to store number values that won't take on decimal form.
+Single: Used to store number values that may take on decimal form. ...
+Double: A longer form of the single variable. ...
+Date: Stores date values.
+String: Stores text. ...
+Boolean: Used to store binary results (True/False, 1/0)
+
+2. What are variables and how do you declare them in VBA? What
+happens if you don’t declare a variable?
+In VBA, a Variable is like a storage box that is itself stored in your system but 
+it can store a value in it for you and you can use that value in your code and can change that value if you want (as the name suggests, “VARIABLE” is something whose value is not fixed).
+
+To declare a variable you need to follow a simple procedure:
+
+Use the keyword “Dim” in the starting.
+Specify a name for the variable.
+Use the keyword “As” after the name.
+Specify the “Data Type” for the variable according to the value you want to assign to it.
+
+Dim startDate As Date
+startDate = “11/10/2018”
+
+If you don't declare a variable, 
+then VBA treats it as a Variant data type that takes the largest space in memory (16 bytes to 22 bytes) when compared to other data types.
+
+
+3. What is a range object in VBA? What is a worksheet object?
+Range is a property in VBA that helps specify a particular cell, a range of cells, a row, a column, or a three-dimensional range. 
+In the context of the Excel worksheet, the VBA range object includes a single cell or multiple cells spread across various rows and columns.
+
+4. What is the difference between worksheet and sheet in excel?
+A Worksheet is basically a single-page spreadsheet containing information.
+A workbook is a file that contains multiple spreadsheets.
+A worksheet contains a matrix of rectangular cells, organized in a form of rows and columns.
+A workbook contains one or more worksheets, consisting of related information.
+
+5. What is the difference between A1 reference style and R1C1 Reference style? What are the advantages and disadvantages of using R1C1 reference style?
+In the A1 reference style, you have the column name as an alphabet and the row name as a number and 
+when you select the A1 cell that means you are in column A and row 1.
+But in R1C1 both column and row are in numbers.
+
+6. When is offset statement used for in VBA? Let’s suppose your current
+highlight cell is A1 in the below table. Using OFFSET statement, write a
+VBA code to highlight the cell with “Hello” written in it.
+
+   A  B   C
+1 25 354 362
+2 36 6897 962
+3 85 85 Hello
+4 96 365 56
+5 75 62 2662
+
+OFFSET is Used with Range Object in Excel VBA.
+Sub HighlightRange()
+  Range("C1:C5").Offset(2, 2).Select
+  Selection.Interior.Color = vbRed
+End Sub
+
+
+
+
+
+
 
