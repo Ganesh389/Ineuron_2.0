@@ -1,1 +1,42 @@
+1. What are modules in VBA and describe in detail the importance of
+creating a module?
+A module is the fundamental syntactic unit of VBA source code. 
+The physical representation of a module is implementation dependent but logically a VBA module is a sequence of Unicode characters 
+that conform to the VBA language grammars. 
+A module consists of two parts: a module header and a module body.
+To insert a new module into your code, click on the Insert option on the menu bar, and click Module.
+Or, click on the Insert Module button which you will find on the standard ribbon.
+To insert a new user form into your code, select the UserForm option.
+A new UserForm will appear in the Project Explorer and will be shown in the Code Window on the right.
+You can also insert a Class Module.
 
+2. What is Class Module and what is the difference between a Class
+Module and a Module?
+A standard module can store procedures and functions which can be either Private or Public (the default)
+and can be accessed either from within that module only (Private) or from anywhere in the project (Public). 
+Modules are also used to store variables, constants and declarations (i.e. API calls) that will need to be accessed from anywhere in the project.
+
+Class modules allow you to create your own objects which can have their own properties and methods like any other object (range, worksheet, Excel, chart, blah, blah).
+
+3. What are Procedures? What is a Function Procedure and a Property
+Procedure?
+A procedure is a block of Visual Basic statements inside Sub, End Sub statements. Procedures do not return values.
+A property procedure is a series of Visual Basic statements that manipulate a custom property on a module, class, or structure. 
+Property procedures are also known as property accessors.
+
+A Function procedure is a series of Visual Basic statements enclosed by the Function and End Function statements. 
+The Function procedure performs a task and then returns control to the calling code. 
+When it returns control, it also returns a value to the calling code.
+
+4. What is a sub procedure and what are all the parts of a sub procedure
+and when are they used?
+A Sub procedure is a series of Visual Basic statements enclosed by the Sub and End Sub statements. 
+The Sub procedure performs a task and then returns control to the calling code, but it does not return a value to the calling code.
+--Declaration syntax
+--Parameter declaration
+--Calling syntax
+
+5. How do you add comments in a VBA code? How do you add multiple
+lines of comments in a VBA code?
+To add comments in a VBA code we use Apostrophe( ‘ ) .
+To add multiple lines of comments we have to select the statement and to put Apostrophe( ‘ ).
