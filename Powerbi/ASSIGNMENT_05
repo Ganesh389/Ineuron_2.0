@@ -1,1 +1,48 @@
+1. Explain DAX.
+DAX is a collection of functions, operators, and constants that can be used in a formula, or expression, to calculate and return one or more values.
+Stated more simply, DAX helps you create new information from data already in your model.
+
+2. Explain datasets, reports, and dashboards and how they relate to each other?
+Datasets: A Power BI Dataset is a series of Power Query queries that have been shaped in a DAX model. 
+Each dataset can combine different files, database tables and online services all into one tabular model.
+
+Reports: A power BI report is a series of visualizations, filters and static elements on a canvas.
+Power BI reports are saved as a single PBIX file and connect to a single dataset. Remember, a Power BI dataset can have many data sources.
+
+Dashboards: In Power BI, dashboards are a way of pulling together visualizations from various reports. 
+When you think dashboard, you are probably thinking something like Microsoft’s definition: 
+“A Power BI dashboard is a single page, often called a canvas, that uses visualizations to tell a story. 
+Because it is limited to one page, a well-designed dashboard contains only the most-important elements of that story.”
+
+3. How reports can be created in power BI, explain two ways with Navigation of each.
+Create a data source
+Run a transformation (Optional)
+Create a query or data model
+Pick a visualization
+Select fields
+Arrange visualization on dashboard
+We can navigate between two reports by creating a button,bookmark and action should be turned on for selection of bookmark created.
+
+4. How to connect to data in Power BI? How to use the content pack to connect to google analytics? Mention the steps.
+Step1 - Get Data
+Step2 - From the drop-down menu, click More…
+Step3 - In the Get Data window, click Other. From the list of other data sources, click Google Analytics, and then click Connect.
+Step4- Read the information about connecting to a third-party service, and then click Continue.
+Step5 - Google Analytics asks Power BI Desktop for permission to connect to your data. Click Accept.
+Step6 - Power BI Desktop shows that you’re signed in to Google Analytics. To load your Google Analytics data, click Connect.
+Step7 - Power BI Desktop loads the Google Analytics data. Now you can start creating your amazing dynamic reports.
+
+5. How to import Local files in Power BI? Mention the Steps.
+  Step1 - In Power BI, click Get Data in the lower left screen.
+  Step2 - Under Import or Connect to Data > Files, click Get.
+  Step3 - Click Local File.
+  Step4 - Choose which file to upload and click Open.
+  Step5 - Click Upload under Upload your Excel file to Power BI.
+  
+6. In Power BI visualization, what are Reading View and Editing view?
+The Power BI service has two different modes for interacting with reports: 
+Reading view for report business users and Editing view for report owners and creators. 
+You need a Power BI Pro or Premium Per User (PPU) license to share reports and to edit reports created by others. 
+Without a Pro or Premium Per User (PPU) license, you can still create reports in your My Workspace, but you can't share them.
+In report Editing view, you have flexibility in both exploring and designing a report. All the Reading view functionality is available plus much more.
 
