@@ -1,1 +1,32 @@
+1. To what does a relative path refer?
+A relative path describes the location of a file relative to the current (working) directory*. 
 
+2. What does an absolute path start with your operating system?
+An absolute path is defined as the specifying the location of a file or directory from the root directory(/). 
+In other words we can say absolute path is a complete path from start of actual filesystem from / directory.
+
+3. What do the functions os.getcwd() and os.chdir() do?
+Python method getcwd() returns current working directory of a process.
+This os. chdir() method changes the current working directory to a specified path instance.
+
+4. What are the . and .. folders?
+The . is the current directory, while .. signifies the parent directory. 
+
+5. In C:\bacon\eggs\spam.txt, which part is the dir name, and which part is the base name?
+ C:\bacon\eggs is the dir name, while spam. txt is the base name.
+ 
+6. What are the three “mode” arguments that can be passed to the open() function?
+r : Opens the file in read-only mode. ...
+rb : Opens the file as read-only in binary format and starts reading from the beginning of the file. ...
+r+ : Opens a file for reading and writing, placing the pointer at the beginning of the file.
+
+7. What happens if an existing file is opened in write mode?
+A new file will be created in the same name in our present working directory.
+
+8. How do you tell the difference between read() and readlines()?
+The read() will read the whole file at once and then print out the first characters that take up as many bytes as you specify in the parenthesis 
+versus the readline() that will read and print out only the first characters that take up as many bytes as you specify in the parenthesis.
+
+9. What data structure does a shelf value resemble?
+ A shelf value resembles a dictionary value; it has keys and values, 
+ along with keys() and values() methods that work similarly to the dictionary methods of the same names.
