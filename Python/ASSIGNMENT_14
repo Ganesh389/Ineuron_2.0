@@ -1,1 +1,70 @@
+1. What does RGBA stand for?
+RGBA(Red-Green-Blue-Alpha)
+The RGB color model is extended in this specification to include “alpha” to allow specification of the opacity of a color.
 
+2. From the Pillow module, how do you get the RGBA value of any images?
+Pillow offers the ImageColor. getcolor() function so you don't have to memorize RGBA values for the colors you want to use. 
+This function takes a color name string as its first argument, and the string 'RGBA' as its second argument, and it returns an RGBA tuple.
+
+3. What is a box tuple, and how does it work?
+The box. tuple submodule provides read-only access for the tuple userdata type. 
+It allows, for a single tuple: selective retrieval of the field contents, 
+retrieval of information about size, iteration over all the fields, and conversion to a Lua table.
+
+4. Use your image and load in notebook then, How can you find out the width and height of an Image object?
+import cv2
+
+# read image
+img = cv2.imread('/home/img/python.png', cv2.IMREAD_UNCHANGED)
+
+# height, width in image
+height = img.shape[0]
+width = img.shape[1]
+
+print('Image Height       : ',height)
+print('Image Width        : ',width)
+
+5. What method would you call to get Image object for a 100×100 image, excluding the lower-left quarter of it?
+Assuming that you have an Image object in Python, you could use the crop() method to extract a region of the image that excludes the lower-left quarter. Here's an example of how you could use this method to extract a 75x75 pixel region from the upper-right corner of a 100x100 pixel image:
+
+from PIL import Image
+
+# Open the original image
+
+img = Image.open('path/to/image.png')
+
+# Define the coordinates for the region to extract
+
+left = 25
+
+upper = 0
+
+right = 100
+
+lower = 75
+
+# Use the crop() method to extract the region
+
+img_cropped = img.crop((left, upper, right, lower))
+
+# Display the cropped image
+
+img_cropped.show()
+
+6. After making changes to an Image object, how could you save it as an image file?
+Image.save() Saves this image under the given filename. If no format is specified, the format to use is determined from the filename extension, if possible.
+
+7. What module contains Pillow’s shape-drawing code?
+The 'ImageDraw' module provides simple 2D graphics support for Image Object. 
+Generally, we use this module to create new images, annotate or retouch existing images and to generate graphics on the fly for web use. 
+The graphics commands support the drawing of shapes and annotation of text.
+
+8. Image objects do not have drawing methods. What kind of object does? How do you get this kind of object?
+
+# Importing Image and ImageDraw from PIL
+from PIL import Image, ImageDraw
+  
+# Opening the image to
+# be used and displaying it
+img = Image.open('img_path.png')
+img.show()
