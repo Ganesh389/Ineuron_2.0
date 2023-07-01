@@ -1,1 +1,39 @@
+1. What do you mean by BI? Explain.
+ANS->Business intelligence (BI) is a technology-driven process for analyzing data and delivering actionable information that helps executives, 
+managers and workers make informed business decisions. As part of the BI process, organizations collect data from internal IT systems and external sources, 
+prepare it for analysis, run queries against the data and create data visualizations, 
+BI dashboards and reports to make the analytics results available to business users for operational decision-making and strategic planning.
 
+2. How Power-BI helps in BI, and how does it help Analysts? Explain.
+ is a range of software services, apps, and connectors that work in conjunction to turn unrelated data sources into insights that are cohesive, interactive, and 
+ visually immersive. The data may be a collection of cloud-based data warehouses, on-premise hybrid data warehouses, or an Excel spreadsheet. 
+ ANS->The Power BI tool allows easy connection to the data sources;  it also allows the visualization and identification of what is important, and share that with anyone.
+ 
+ 3. Explain Descriptive analytics?
+ ANS-> Descriptive analytics is a statistical method that is used to search and summarize historical data in order to identify patterns or meaning.
+
+For learning analytics, this is a reflective analysis of learner data and is meant to provide insight into 
+historical patterns of behaviors and performance in online learning environments.
+
+For example, in an online learning course with a discussion board, descriptive analytics could determine how many students participated in the discussion,
+or how many times a particular student posted in the discussion forum.
+
+4. Explain Predictive analytics?
+ANS-> Predictive analytics is a significant analytical approach used by many firms to assess risk, forecast future business trends, 
+and predict when maintenance is required. 
+Data scientists use historical data as their source and utilize various regression models and machine learning techniques to detect patterns and trends in the data.
+
+5. Explain perspective analytics?
+ANS-> Prescriptive analytics is a type of data analytics that attempts to answer the question "What do we need to do to achieve this?" 
+It involves the use of technology to help businesses make better decisions through the analysis of raw data. 
+Prescriptive analytics specifically factors information about possible situations or scenarios, available resources, past performance, 
+and current performance, and suggests a course of action or strategy. It can be used to make decisions on any time horizon, 
+from immediate to long-term. It is the opposite of descriptive analytics, which examines decisions and outcomes after the fact.
+
+6. Write five real-life questions that PowerBi can solve.
+ANS-> 
+Waiting On Figures. ...
+Using Data From Old Reports. ...
+Excessive Time Spent Preparing For Presentations. ...
+Being Unable To Find Specific Data Sets. ...
+Not Being Able To Determine Your Level Of Success.
